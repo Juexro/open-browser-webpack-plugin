@@ -1,0 +1,27 @@
+{
+  "name": "@juexro/open-browser-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Based on webpack4. Auto open browser after compilation has completed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juexro/open-browser-webpack-plugin"
+  },
+  "keywords": [
+    "open",
+    "browser",
+    "plugin",
+    "webpack4"
+  ],
+  "author": "Mr.Chow",
+  "license": "MIT",
+  "dependencies": {
+    "open": "^0.0.5"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
