@@ -12,12 +12,14 @@ class OpenBrowser {
   }
   apply (compiler) {
     let stat = false
+    let isOpen = false
     compiler.hooks.watchRun.tap('watch-run', (compiler) => {
       stat = true
     })
     compiler.hooks.done.tapPromise('done', async (stats) => {
       await this.sleep(this.delay)
-      if (stat && this.url) {
+      if (stat && this.url && !isOpen) {
+        isOpen = true
         open(this.url, this.browser)
       }
     })

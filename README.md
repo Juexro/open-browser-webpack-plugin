@@ -43,3 +43,6 @@ webpack({
 <h2 align="left">Change Log</h2>
 
 #### v1.0.1 - 2018-9-29
+
+#### v1.0.2 - 2018-9-29
+- fixed reopen browser
