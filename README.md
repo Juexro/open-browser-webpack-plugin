@@ -18,7 +18,7 @@ yarn add @juexro/open-browser-webpack-plugin -D
 
 **webpack.config.js**
 ```js
-const const OpenBrowserPlugin = require('@juexro/open-browser-webpack-plugin')
+const OpenBrowserPlugin = require('@juexro/open-browser-webpack-plugin')
 webpack({
   entry: {...},
   output: {...},
@@ -42,4 +42,4 @@ webpack({
 
 <h2 align="left">Change Log</h2>
 
-#### v1.0.0 - 2018-9-29
+#### v1.0.1 - 2018-9-29
